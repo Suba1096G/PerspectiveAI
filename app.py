@@ -14,7 +14,7 @@ st.caption("Turn your real project experiences and lessons into authentic social
 api_key = os.getenv("GOOGLE_API_KEY")
 if not api_key:
     st.error("GOOGLE_API_KEY is missing. Add it to your .env file and restart the app.")
-    st.code('GOOGLE_API_KEY="AIzaSyBLdw7-YmpCIy0HHeBfJsVDuJJobP3hXI0"', language="text")
+    st.code('GOOGLE_API_KEY="copy your key here"', language="text")
     st.stop()
 
 @st.cache_resource
