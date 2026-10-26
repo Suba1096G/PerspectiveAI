@@ -1,0 +1,22 @@
+```gitignore
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep the example environment file
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor files
+.vscode/
+```
